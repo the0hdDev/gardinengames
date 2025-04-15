@@ -1,0 +1,73 @@
+.heading {
+    position: absolute;
+    color: white;
+    z-index: 100;
+    padding-left:20px ;
+    font-family: "Barrio", system-ui;
+    font-weight: 700;
+}
+a {
+    color: white;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.startdrawingtext {
+        font-family: "Barrio", system-ui;
+        font-weight: 400;
+        font-style: normal;
+
+}
+
+.gocontainer {
+    
+    display: none;
+    align-items: center;qq
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+}
+
+.gobutton{
+    font-size: 30px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: "Barrio", system-ui;
+    
+}
+
+.gobutton:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.gocontainer {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease;
+  }
+  .gocontainer.fade-out {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
